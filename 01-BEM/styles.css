@@ -1,0 +1,89 @@
+/*
+BEM = Bloque, Elemento, Modificador
+
+Se usa siempre CLASS no ID
+
+Class = aplicar estilos
+Id = aplicar funcionalidad (JavaScript)
+
+.blqoue
+.bloque__elemento
+.blque__elemento--modificador
+
+.blque__elemento--modificador
+
+1. No usar Ids
+2. No usar etiquetas
+3. Que todo sea un key selector ( Seleccionar justo el elemento al cual se le va a aplicar el estilo)
+
+*/
+/*BEM*/
+.cards {
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px gray; 
+    border-radius: 5px;
+}
+
+.cards__card {
+    font-family:'Courier New', Courier, monospace;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin: 5px;
+    background: lightblue;
+
+}
+
+/*Ccontecto*/ /*clave*/
+.card__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link {
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.card__readmore{
+    font-weight: bold;
+}
+
+.card__link--rojo{
+    background-color: red;
+}
+
+/*Forma Classica
+.cards {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px gray; 
+    border-radius: 5px;
+}
+
+.cards .card {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+    background: lightblue;
+
+}
+
+Ccontecto clave
+.cards .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a {
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}*/
