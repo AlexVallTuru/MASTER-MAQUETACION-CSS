@@ -29,9 +29,3 @@
     background: transparent;
     margin: 40px 0;
 }
-
-/* SCROLL MARA MOZ*/
-.content__page{
-    scrollbar-width: thin;
-    scrollbar-color: var(--color-scrollbar) transparent;
-}
