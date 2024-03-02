@@ -312,7 +312,12 @@ body {
     opacity: 0.5;
 }
 
-.title__color {
+.title__certificado::after {
+    left: 172px;
+}
+
+.title__color,
+.subtit__color {
     color: var(--color-secundary)
 }
 
@@ -350,13 +355,14 @@ body {
 }
 
 
-/*ESTILOS COMPARTIDOS ABOUT*/
+/*ESTILOS GENERALES COMPARTIDOS ABOUT Y OTRAS SECCIONES*/
 
 .services__header,
 .reviews__header,
 .clients__header,
 .prices__header,
-.extra__header {
+.extra__header,
+.resume__subheader {
     display: inline-block;
     margin-bottom: 2.5rem;
     margin-right: 2.5rem;
@@ -377,7 +383,8 @@ body {
 .reviews__title,
 .clients__title,
 .prices__title,
-.extra__title {
+.extra__title,
+.resume__subtitle {
     font-size: 2.1rem;
 }
 
@@ -385,7 +392,8 @@ body {
 .clients__title::after,
 .reviews__title::after,
 .prices__title::after,
-.extra__title::after {
+.extra__title::after,
+.resume__subtitle::after {
     content: "";
     position: absolute;
     left: 87%;
