@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+
+    <title>Portafolio - AlexVall</title>
+  </head>
+  <body>
+    <!-- Layout principal -->
+    <div class="layout">
+      <!-- barra lateral (Info usuarios)-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!-- Informacion general usuario-->
+          <div class="user-info__general">
+            <div class="user-info__photo">
+              <div class="user-info__container-image">
+                <img
+                  src="assets/img/default-user.jpg"
+                  class="user-info__image"
+                  alt="Foto perfil usuario" />
+              </div>
+            </div>
+            <h1 class="user-info__name">Àlex Vall</h1>
+            <h3 class="user-info__job">Desarrollador web</h3>
+          </div>
+          <!-- Menu de navegacion-->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"> </i>
+                  <span class="menu__overlay">Inicio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"> </i>
+                  <span class="menu__overlay">Inicio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-graduation-cap"> </i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"> </i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"> </i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"> </i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Links redes sociales-->
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Boton de curriculum-->
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn"> Descargar CV </a>
+          </div>
+          <!-- Footer-->
+          <footer class="user-info__footer">&copy 2024 Alex Vall WEB.</footer>
+        </section>
+      </aside>
+
+      <!--Contenido principal-->
+      <main class="layout__content">
+        <section class="content__page content__resume">
+          <header class="resume__header">
+            <h1 class="resume__title">Curriculum</h1>
+          </header>
+
+          <div class="resume__container">
+            <section class="resume__left">
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Formación</h2>
+              </header>
+
+              <div class="resume__timelines">
+                <article class="timeline__item">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2010</h4>
+                    <span class="timeline__company">
+                      Universidad de Barcelona
+                    </span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Desarrollo web</h3>
+                    <p class="timeline__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nulla convallis, justo in lacinia tincidunt, nunc libero
+                      consectetur.
+                    </p>
+                  </div>
+                </article>
+                <article class="timeline__item">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2008</h4>
+                    <span class="timeline__company">
+                      Universidad de Barcelona
+                    </span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Desarrollo backend</h3>
+                    <p class="timeline__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nulla convallis, justo in lacinia tincidunt, nunc libero
+                      consectetur.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Experiencia</h2>
+              </header>
+              <div class="resume__timelines">
+                <article class="timeline__item">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2015 - 2024</h4>
+                    <span class="timeline__company">
+                      Google
+                    </span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Desarrollo web junior</h3>
+                    <p class="timeline__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nulla convallis, justo in lacinia tincidunt, nunc libero
+                      consectetur.
+                    </p>
+                  </div>
+                </article>
+                <article class="timeline__item">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2006 - 2022</h4>
+                    <span class="timeline__company">
+                      Editor de videos
+                    </span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Desarrollo backend</h3>
+                    <p class="timeline__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nulla convallis, justo in lacinia tincidunt, nunc libero
+                      consectetur.
+                    </p>
+                  </div>
+                </article>
+
+              </article>
+              <article class="timeline__item">
+                <header class="timeline__header">
+                  <h4 class="timeline__year">20013 - 2015</h4>
+                  <span class="timeline__company">
+                    fGoogle
+                  </span>
+                </header>
+
+                <div class="timeline__divider"></div>
+
+                <div class="timeline__description">
+                  <h3 class="timeline__title">Desarrollo kotlin</h3>
+                  <p class="timeline__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla convallis, justo in lacinia tincidunt, nunc libero
+                    consectetur.
+                  </p>
+                </div>
+              </article>
+              </div>
+            </section>
+
+            <section class="resume__right">
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Habilidades de diseño</h2>
+              </header>
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Habilidades de codigo</h2>
+              </header>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
