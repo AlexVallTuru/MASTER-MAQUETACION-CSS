@@ -705,7 +705,9 @@ body {
     margin-bottom: 5rem;
 }
 
-.timelines__item {
+
+
+.timelines__timeline {
     width: 100%;
     position: relative;
     margin-bottom: 3rem;
@@ -713,6 +715,77 @@ body {
     flex-direction: row;
 }
 
+.timeline__header {
+    flex-basis: 30%;
+    text-align: right;
+    padding-right: 2.5rem;
+}
+
+.timeline__year {
+    margin: 0.3rem 0;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+.timeline__company {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--color-company);
+}
+
+.timeline__description {
+    flex-basis: 70%;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+}
+
+.timeline__title {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+}
+
+.timeline__text {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.timeline__divider {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: -30px;
+    width: 1px;
+    background-color: var(--color-background-scrollbar);
+}
+
+.timeline__divider::before {
+    content: "";
+    position:absolute;
+    margin-top: 0.4rem;
+    margin-left: -0.8rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: var(--color-secundary);
+    border-radius: 10rem;
+    opacity: 0.25;
+}
+.timeline__divider::after {
+    content: "";
+    position:absolute;
+    margin-top: 0.7rem;
+    margin-left: -0.5rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--color-principal);
+    border-radius: 10rem;
+    border: 2px solid var(--color-secundary);
+    opacity: 1;
+}
+
+
+
+/* CURRICULUM DERECHA */
 .resume__right {
     flex-basis: 41%;
 }
