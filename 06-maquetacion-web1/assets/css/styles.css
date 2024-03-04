@@ -406,6 +406,14 @@ body {
     opacity: 0.5;
 }
 
+.subtitle__disenio::after {
+    left: 212px;
+}
+
+.subtitle__codigo::after {
+    left: 215px;
+}
+
 .clients__title::after {
     left: 350px;
 }
