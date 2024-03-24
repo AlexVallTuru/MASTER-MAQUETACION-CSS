@@ -68,12 +68,13 @@
         transition: all 500ms ease-in-out;
     }
 
-    .menu-toggle__icon {
+    .menu-toggle {
         color : var(--color-principal);
         display: block;
         position: absolute;
         top: 25%;
-        left: 25%;
+        left: 28%;
+        transition: all 300ms ease-in-out;
     }
 
     .fa-xmark {
@@ -99,6 +100,7 @@
 
         margin-right: -100%;
         opacity: 0;
+        padding-bottom: 25px;
     }
 
     .layout__aside--visible {
@@ -121,12 +123,14 @@
 
     .content__page {
         border-radius: 0;
-        height: 100vh;
+        height: 90vh;
+        padding-bottom: 45px;
     }
 
     .layout__menu {
         position: static;
         margin: 3rem 0;
+        
      }
 
     .user-info__container-image {
@@ -168,7 +172,7 @@
         padding: 0;
         box-shadow: none;
         font-size:  1.7rem;
-        line-height: 2.5rem;
+        line-height: 2.2rem;
     }
 
     .menu__link--active .menu__overlay {
